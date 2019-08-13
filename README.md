@@ -2,7 +2,7 @@
 
 This repository contains 2 figures for my Data Incubator project proposal.
 
-Socio-political transitions involve unforeseen landmark developments that have a considerable effect on national affairs. These macro-level transitions swiftly trickle down to have a lasting impact on social life at the micro-level. I intend to understand how macro-level socio-political transitions and micro-level actions of social agents affect each other, consequently making or breaking the stability of a nation. I have laid the groundwork for my project by analyzing data on violent and non-violent actions by social agents in Pakistan from 2010 to 2018.
+I intend to understand how macro-level socio-political transitions and micro-level actions of social agents affect each other, consequently making or breaking the stability of a nation. I have laid the groundwork for my project by analyzing data on violent and non-violent actions by social agents in Pakistan from 2010 to 2018.
 
 I have used data from the Armed Conflict Location & Event Data Project (ACLED), which is a disaggregated conflict collection, analysis, and crisis mapping project. The ACLED dataset contains locations, dates, actors, types of violence, and fatalities of all reported political violence and protest events across Africa, South Asia, South East Asia, the Middle East, Europe, and Latin America. 
 
