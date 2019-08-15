@@ -1,6 +1,6 @@
 # data-incubator
 
-This repository contains 2 figures for my Data Incubator project proposal.
+This repository contains code and figures for spatial temporal predictive alaysis of conflict.
 
 I intend to understand how macro-level socio-political transitions and micro-level actions of social agents affect each other, consequently making or breaking the stability of a nation. I have laid the groundwork for my project by analyzing data on violent and non-violent actions by social agents in Pakistan from 2010 to 2018.
 
