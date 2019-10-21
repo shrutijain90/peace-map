@@ -1,11 +1,7 @@
-# data-incubator
+# peace-mapp
 
-This repository contains code and figures for spatial temporal predictive alaysis of conflict.
+This repository contains a model for prediction of civil conflict in fragile nation states across the world. This early warning system for conflict prediction can help governments of such delicate contexts effectively deploy resources so as to save human lives and minimize costs to their economy. 
 
-I intend to understand how macro-level socio-political transitions and micro-level actions of social agents affect each other, consequently making or breaking the stability of a nation. I have laid the groundwork for my project by analyzing data on violent and non-violent actions by social agents in Pakistan from 2010 to 2018.
+I showcase my analysis considering the case of Pakistan, on account of the country's history of political turmoil in the last decade. My primary source of data is the Armed Conflict Location & Event Dataset, which is a publicly available data repository cataloguing global conflict events on a daily basis. 
 
-I have used data from the Armed Conflict Location & Event Data Project (ACLED), which is a disaggregated conflict collection, analysis, and crisis mapping project. The ACLED dataset contains locations, dates, actors, types of violence, and fatalities of all reported political violence and protest events across Africa, South Asia, South East Asia, the Middle East, Europe, and Latin America. 
-
-Figure 1 shows all (violent and non-violent) events of political unrest in Pakistan from 2010 to 2018. These events are color coded by type of event (battles, explosions, protests, riots, strategic developments, and violence against civilians), and are sized by the number of fatalities (larger sizes mean more deaths). 
-
-Figure 2 displays the monthly time trends in different kinds of unrest events from 2010 to 2018. The time axis in this figure is partitioned with three landmark socio-political events to get a sense of the ripple effects. 
+I have used a Recurrant Neural Network with Long Short-Term Memory for prediction.
