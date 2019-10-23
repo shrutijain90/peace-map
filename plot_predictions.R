@@ -1,3 +1,4 @@
+library(rgeos)
 library(raster)
 library(rgdal)
 library(RColorBrewer)
@@ -8,14 +9,17 @@ pred <- read.csv("data/predictions.csv", header = TRUE)
 
 stack <- raster("data/pak_stack.tif")
 
-#kenya boundary
+#pakistan boundary
 boundary <- readOGR("data/boundaries/PAK_adm0.shp")
+#buffer <- raster::buffer(x=boundary, width=0.001)
 
 x <- raster(extent(boundary), res = res(stack), crs="+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
 
 predicted_raster <- rasterize(pred[, c('longitude','latitude')], x, pred[, 'pred'])
+#predicted_raster <- mask(x=predicted_raster, mask=buffer)
 
 actual_raster <- rasterize(pred[, c('longitude','latitude')], x, pred[, 'actual'])
+#actual_raster <- mask(x=actual_raster, mask=buffer)
 
 cols <- brewer.pal(5, "Reds")
 
