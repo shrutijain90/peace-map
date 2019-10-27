@@ -1,4 +1,4 @@
-# peace-mapp
+# peace-map
 
 This repository contains a model for prediction of civil conflict in fragile nation states across the world. This early warning system for conflict prediction can help governments of such delicate contexts effectively deploy resources so as to save human lives and minimize costs to their economy. 
 
