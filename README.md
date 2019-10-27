@@ -7,6 +7,9 @@ I showcase my analysis considering the case of Pakistan, on account of the count
 I have used a Recurrant Neural Network with Long Short-Term Memory for prediction.
 
 Files 1 - 3 explore the data using some visualizations. 
+
 File 4 combines multiple input datasets obtained from various sources.
+
 File 5 trains the predictive model (RNN for time series forcasting), tests it, and makes predictions.
+
 File 6 plots the final predictions.
