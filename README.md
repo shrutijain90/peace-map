@@ -13,5 +13,3 @@ File 4 combines multiple input datasets obtained from various sources.
 File 5 trains the predictive model (RNN for time series forcasting), tests it, and makes predictions.
 
 File 6 plots the final predictions.
-
-Project Website: https://shrutijain90.github.io/Projects/peacemap/index.html
